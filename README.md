@@ -3,4 +3,4 @@
 https://www.udemy.com/course/kubernetes-docker-container-devops-kanzen-nyumon
 
 ### Challenge構成
-![](https://github.com/1shikawa/k8s_introduction/tree/main/imgs/voting_app_k8s_architecture_ingress.png)
+![test](imgs/voting_app_k8s_architecture_ingress.png)
