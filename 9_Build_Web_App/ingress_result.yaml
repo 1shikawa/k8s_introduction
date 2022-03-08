@@ -9,12 +9,12 @@ metadata:
     #   rewrite /result/(.*) $1 break;
 spec:
   rules:
-  - http:
-      paths:
-      - path: /result
-        backend:
-          serviceName: result
-          servicePort: 5001
+    - http:
+        paths:
+          - path: /result
+            backend:
+              serviceName: result
+              servicePort: 5001
 
 
 # kubectl version 1.21以降の場合のSyntax:
@@ -36,5 +36,5 @@ spec:
 #         backend:
 #           service:
 #             name: result
-#             port: 
+#             port:
 #               number: 5001

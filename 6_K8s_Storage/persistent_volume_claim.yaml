@@ -5,7 +5,22 @@ metadata:
 spec:
   storageClassName: manual
   accessModes:
+    # 読み書きできる可能指定
     - ReadWriteOnce
   resources:
     requests:
       storage: 10M
+
+# ---
+# apiVersion: apps/v1
+# kind: PersistentVolumeClaim
+# metadata:
+#   name: mypvc
+# spec:
+#   resources:
+#     requests:
+#       storage: {2:<Size>}
+#   volumeMode: Filesystem
+#   accessModes:
+#     - ReadWriteOnce
+

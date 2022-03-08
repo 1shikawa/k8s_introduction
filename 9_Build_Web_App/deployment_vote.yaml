@@ -18,9 +18,9 @@ spec:
         run: vote
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote:before
-        name: vote
-        ports:
-        - containerPort: 80
-        resources: {}
+        - image: dockersamples/examplevotingapp_vote:before
+          name: vote
+          ports:
+            - containerPort: 80
+          resources: {}
 status: {}
